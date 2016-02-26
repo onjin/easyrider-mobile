@@ -1,0 +1,17 @@
+<ion-view view-title="Summary">
+  <div class="bar bar-header bar-calm">
+    <h1 class="title">Podsumowanie</h1>
+  </div>
+
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item class="item-remove-animate  item-thumbnail-left item-icon-right" ng-repeat="track in tracks" href="#/tab/track/{{track.id}}">
+        <img ng-if="track.thumbnail" ng-src="{{track.thumbnail}}" class="thumbnail">
+        <img ng-if="!track.thumbnail" ng-src="img/map.png" class="thumbnail">
+        <h2>{{track.name}}</h2>
+        <p>{{track.summary}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

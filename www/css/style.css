@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+
+h1 {
+    color: #fff;
+    text-shadow: 0 1px 0px #000;
+    font-size: 42px;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+}
+h1 img {
+    width: 200px;
+}
+
+.weather-icon {
+    margin: 0 auto;
+    background-position: 0 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px !important;
+    -webkit-border-radius: 150px;
+    outline: 0;
+    display: block;
+}
+.weather-icon-sun {
+  background-color: transparent;
+
+}
+button.enable-tracking {
+  position: absolute;
+  top: 45%;
+}
+.notification-icon {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  padding: 2px;
+  height: 24px;
+}
+.summary .item-thumbnail-left>img {
+  border-radius: 0 !important;
+}

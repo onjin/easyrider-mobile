@@ -1,0 +1,31 @@
+<ion-view view-title="Easy Rider">
+
+	<div class="ionic login"
+		style="background-image: url('img/background_1024h.jpg')">
+
+		<a class="notification-icon button button-small" href="">
+			<i class="icon ion-information-circled"></i>
+		</a>
+
+		<div class="hero no-header flat">
+			<div class="content">
+				<h1><img src="img/logo-200.png"></h1>
+			</div>
+		</div>
+
+		<button
+			ng-if="enabledTracking==false"
+			ng-click="enableTracking()"
+			class="enable-tracking button button-block button-assertive">
+			Włącz śledzenie
+		</button>
+		<button
+			ng-if="enabledTracking==true"
+			ng-click="disableTracking()"
+			class="enable-tracking button button-block button-balanced">
+			Wyłącz śledzenie
+		</button>
+
+	</div>
+
+</ion-view>
