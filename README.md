@@ -1,3 +1,5 @@
+![easy-rider](https://raw.githubusercontent.com/onjin/easyrider-mobile/master/resources/icon.png)
+
 # EasyRider
 
 Aplikacja śledząca trasy rowerzystów. Wersja pre-alpha ;)
