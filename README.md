@@ -1,6 +1,6 @@
 # EasyRider
 
-Aplikacja śledząca trasy rowerzystów
+Aplikacja śledząca trasy rowerzystów. Wersja pre-alpha ;)
 
 ## Przygotowanie do developmentu przy pomocy przeglądarki
 
