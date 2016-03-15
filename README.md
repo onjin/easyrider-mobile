@@ -2,6 +2,8 @@
 
 # EasyRider
 
+[![Join the chat at https://gitter.im/onjin/easyrider-mobile](https://badges.gitter.im/onjin/easyrider-mobile.svg)](https://gitter.im/onjin/easyrider-mobile?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Aplikacja śledząca trasy rowerzystów. Wersja pre-alpha ;)
 
 ## Przygotowanie do developmentu przy pomocy przeglądarki
